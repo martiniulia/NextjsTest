@@ -1,6 +1,6 @@
 "use client";
 
-import { initializeApp } from "firebase/app";
+import { initializeApp } from "./cons";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";

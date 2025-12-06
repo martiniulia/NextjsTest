@@ -3,7 +3,8 @@
 import "server-only";
 
 import { cookies } from "next/headers";
-import { initializeServerApp, initializeApp } from "firebase/app";
+import { initializeServerApp } from "firebase/app";
+import { initializeApp } from "./cons";
 
 import { getAuth } from "firebase/auth";
 
